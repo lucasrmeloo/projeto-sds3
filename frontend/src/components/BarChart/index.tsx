@@ -29,7 +29,7 @@ const BarChart = () => {
                 data: []
             }
         ]
-    })
+    });
 
     useEffect(() => {
         axios.get(`${BASE_URL}/sales/success-by-seller`)
